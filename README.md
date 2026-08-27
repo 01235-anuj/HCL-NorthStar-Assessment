@@ -63,3 +63,22 @@ The agent also provides the source document used for policy-based answers.
                     │   Final Answer       │
                     │   + Source           │
                     └──────────────────────┘
+
+---
+
+## Project Structure
+
+```text
+HCL-NorthStar-Assessment/
+│
+├── data/
+│   ├── sales_clean.csv
+│   └── policy/reference documents
+│
+├── src/
+│   └── agent_local.py
+│
+├── .env.example
+├── .gitignore
+├── requirements.txt
+└── README.md
