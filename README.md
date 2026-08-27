@@ -1,29 +1,36 @@
 # HCL NorthStar Assessment
 
-AI-powered Sales & Policy Question Answering Agent for NorthStar Retail.
+An AI-powered Sales & Policy Question Answering Agent built for the NorthStar Retail assessment.
 
 ## Overview
 
-This project implements a local AI-style question-answering agent for NorthStar Retail.
+This project implements a local question-answering agent that combines structured sales data with NorthStar Retail policy and product reference documents.
 
-The agent can answer questions using:
+The agent is designed to provide accurate answers to both **business analytics** and **policy-related** questions, along with the relevant source document for policy-based responses.
 
-- Sales data from the provided CSV dataset
-- NorthStar Retail policy documents
-- Product and category information
-- Customer support information
-- Shipping and delivery policies
-- Returns and refunds policies
+## Key Capabilities
+
+### Sales Analytics
+
+- Calculate total revenue
+- Identify the highest-revenue region
+- Identify top-performing products
+- Generate revenue by region
+- Generate revenue by product category
+- Query revenue for specific products
+
+### Policy & Product Information
+
+- Customer support channels and response policies
+- Shipping and delivery timelines
+- Return and refund policies
 - Loyalty program rules
-- Warranty information
+- Warranty coverage and duration
 - Product sizing information
-- Promotions and stationery FAQs
+- Seasonal promotion rules
+- Stationery and bulk-order information
 
-The agent also provides the source document used for policy-based answers.
-
----
-
-## Workflow
+## How It Works
 
 ```text
                     ┌──────────────────────┐
